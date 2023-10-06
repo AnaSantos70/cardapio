@@ -1,0 +1,69 @@
+body{
+    background-color:rgb(247, 206, 182);
+}
+header{
+    background-color: rgb(202, 93, 93);
+    text-align: center; 
+    border-style: double;
+}
+
+#links{
+   
+    display:flex;
+    justify-content: space-around;
+  
+}
+.link{
+    color:black;
+    text-decoration: none;
+}
+.link:hover{
+    background-color:rgb(150, 53, 69);
+    border-radius: 50%;
+    width: 150px;
+    color:rgb(247, 206, 182);
+}
+#chamada{
+    text-align:center;
+    font-size: 180%;
+}
+h2{
+    font-family:"Kunstler Script";
+    font-size: 40px;
+}
+.corpo{
+    margin-left: 25px;
+}
+.fotos{
+    width: 250px;
+    height:200px;
+    border: solid 3px rgb(202, 93, 93);
+    border-radius: 5%;
+}
+.fotos:hover{
+    transition: all 0.5s;
+    cursor:pointer;
+    -webkit-transform: scale(1.2);
+    transform:scale(1.2);
+}
+footer{
+    height:150px;
+    background-color: rgb(202, 93, 93);
+    text-align:center;
+}
+#creditos{
+    background-color: rgb(202, 93, 93);
+    margin-right: 10px;
+    text-align:right;
+}
+#creditos a{
+    color:black;
+    text-decoration: none;
+}
+/*bebidas*/
+figcaption{
+    margin-top:  25px;;
+}
+#fb{
+    height:70px;
+}
